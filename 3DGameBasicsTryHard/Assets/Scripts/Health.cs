@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 
 public class Health : MonoBehaviour {
@@ -11,6 +12,7 @@ public class Health : MonoBehaviour {
 	public const int maxHealth = 100;
 	public int currentHealth = maxHealth;
 	public RectTransform healthBar;
+	private bool crit = false;
 	
 	// Use this for initialization
 	void Start () {
@@ -23,12 +25,18 @@ public class Health : MonoBehaviour {
 		_animator.SetBool("getHitBody", false);
 		_animator.SetBool("getHitLeft", false);
 		_animator.SetBool("getHitRight", false);
+		crit = false;
 	}
 	
 	
 	public void TakeDamage(int amount, Collider other)
 	{
-		FloatingTextController.CreateFloatingText(amount.ToString(), other.transform);
+		if (Random.Range(0, 3) % 3 == 0)
+		{
+			crit = true;
+			amount *= 2;
+		}
+		FloatingTextController.CreateFloatingText(amount.ToString(), other, crit);
 		currentHealth -= amount;
 		
 		if (other.CompareTag("MonsterBody"))

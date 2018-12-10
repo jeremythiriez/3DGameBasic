@@ -98,25 +98,25 @@
     <Compile Include="Assets\Stage\PostProcessing\Editor\Utils\FxStyles.cs" />
     <Compile Include="Assets\Stage\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
     <Reference Include="Assembly-UnityScript">
-      <HintPath>/Users/jeremythiriez/KMU/3DGameBasicsTryHard/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+      <HintPath>/Users/jeremythiriez/KMU/3DGameBasic/3DGameBasicsTryHard/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/jeremythiriez/KMU/3DGameBasicsTryHard/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/jeremythiriez/KMU/3DGameBasic/3DGameBasicsTryHard/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/jeremythiriez/KMU/3DGameBasicsTryHard/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/jeremythiriez/KMU/3DGameBasic/3DGameBasicsTryHard/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/jeremythiriez/KMU/3DGameBasicsTryHard/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/jeremythiriez/KMU/3DGameBasic/3DGameBasicsTryHard/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.postprocessing.Editor">
-      <HintPath>/Users/jeremythiriez/KMU/3DGameBasicsTryHard/Library/ScriptAssemblies/com.unity.postprocessing.Editor.dll</HintPath>
+      <HintPath>/Users/jeremythiriez/KMU/3DGameBasic/3DGameBasicsTryHard/Library/ScriptAssemblies/com.unity.postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.postprocessing.Runtime">
-      <HintPath>/Users/jeremythiriez/KMU/3DGameBasicsTryHard/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll</HintPath>
+      <HintPath>/Users/jeremythiriez/KMU/3DGameBasic/3DGameBasicsTryHard/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/jeremythiriez/KMU/3DGameBasicsTryHard/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/jeremythiriez/KMU/3DGameBasic/3DGameBasicsTryHard/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -361,6 +361,9 @@
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
       <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
+      <HintPath>/Users/jeremythiriez/KMU/3DGameBasic/3DGameBasicsTryHard/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/jeremythiriez/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -375,9 +378,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>/Users/jeremythiriez/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
-      <HintPath>/Users/jeremythiriez/KMU/3DGameBasicsTryHard/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>
