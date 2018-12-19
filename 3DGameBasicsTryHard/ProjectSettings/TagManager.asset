@@ -9,6 +9,7 @@ TagManager:
   - MonsterBody
   - MonsterArmLeft
   - MonsterArmRight
+  - ItemsSpell
   layers:
   - Default
   - TransparentFX

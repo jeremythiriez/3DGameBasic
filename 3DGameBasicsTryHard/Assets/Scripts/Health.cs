@@ -28,6 +28,11 @@ public class Health : MonoBehaviour {
 		crit = false;
 	}
 	
+	IEnumerator isDead()
+    {
+        yield return new WaitForSeconds(3);
+		Destroy(gameObject);
+    }
 	
 	public void TakeDamage(int amount, Collider other)
 	{
@@ -57,6 +62,7 @@ public class Health : MonoBehaviour {
 			currentHealth = 0;
 			Debug.Log("Dead!");
 			_animator.SetBool("dead", true);
+			StartCoroutine(isDead());
 		}
 		healthBar.sizeDelta = new Vector2(currentHealth, healthBar.sizeDelta.y);
 		
